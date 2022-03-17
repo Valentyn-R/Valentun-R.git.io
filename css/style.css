@@ -1,0 +1,241 @@
+/* line 1, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 4, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 8, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2;
+}
+
+/* line 15, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 22, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 27, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 31, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 38, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 43, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 50, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.subheader .subheader_call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 57, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 67, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 81, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/uber_bg.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 86, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.promo .promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 95, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.promo .promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 105, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.promo .promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 113, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 128, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.reasons {
+  padding: 20px 0 65px 0;
+}
+
+/* line 131, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 143, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 152, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.subtitle {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #222222;
+}
+
+/* line 158, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 164, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.reasons .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 116px;
+  height: 116px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 174, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.reasons .reasons_block .reasons_dscr {
+  width: 370px;
+}
+
+/* line 177, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.reasons .reasons_block .reasons_dscr .reasons_title {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 183, ../../../../../../../../../../../../../Users/valentyn/Desktop/Udemy/web curse/UBER/src/sass/style.sass */
+.reasons .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/*# sourceMappingURL=style.css.map */
